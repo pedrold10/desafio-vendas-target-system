@@ -1,6 +1,7 @@
 ﻿using System.Text.Json;
 using DesafioTarget.Models;
 using DesafioTarget.Services;
+using System.Globalization;
 
 while (true) {
     Console.Clear();
@@ -183,7 +184,57 @@ void MovimentarEstoque()
     }
 }
 
+void CalcularJuros()
+{
+    while (true)
+    {
+        Console.Clear();
 
-void CalcularJuros() {
-    // Vamos implementar essa parte depois.
+        Console.WriteLine("=== CÁLCULO DE JUROS ===");
+        Console.WriteLine();
+
+        Console.Write("Valor: R$ ");
+
+        if (!decimal.TryParse(
+                Console.ReadLine(),
+                out var valor))
+        {
+            Console.WriteLine("Valor inválido.");
+            continue;
+        }
+
+        Console.Write("Data de vencimento (dd/MM/yyyy): ");
+
+        if (!DateTime.TryParseExact(
+                Console.ReadLine(),
+                "dd/MM/yyyy",
+                CultureInfo.InvariantCulture,
+                DateTimeStyles.None,
+                out var vencimento))
+        {
+            Console.WriteLine(
+                "Data de vencimento inválida. Use o formato dd/MM/yyyy.");
+            continue;
+        }
+
+        var jurosService = new JurosService();
+
+        var juros = jurosService.Calcular(valor, vencimento);
+
+        Console.WriteLine();
+        Console.WriteLine($"Valor: R$ {valor:F2}");
+        Console.WriteLine($"Vencimento: {vencimento:dd/MM/yyyy}");
+        Console.WriteLine($"Juros: R$ {juros:F2}");
+        Console.WriteLine($"Valor total: R$ {(valor + juros):F2}");
+
+        Console.WriteLine();
+        Console.Write("Deseja realizar outro cálculo? (S/N): ");
+
+        var continuar = Console.ReadLine();
+
+        if (!continuar.Equals("S", StringComparison.OrdinalIgnoreCase))
+        {
+            break;
+        }
+    }
 }
