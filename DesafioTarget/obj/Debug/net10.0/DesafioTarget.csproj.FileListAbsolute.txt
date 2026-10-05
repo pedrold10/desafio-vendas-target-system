@@ -1,0 +1,15 @@
+/home/pedro/Documents/GitHub/desafio-vendas-target-system/DesafioTarget/bin/Debug/net10.0/DesafioTarget
+/home/pedro/Documents/GitHub/desafio-vendas-target-system/DesafioTarget/bin/Debug/net10.0/DesafioTarget.deps.json
+/home/pedro/Documents/GitHub/desafio-vendas-target-system/DesafioTarget/bin/Debug/net10.0/DesafioTarget.runtimeconfig.json
+/home/pedro/Documents/GitHub/desafio-vendas-target-system/DesafioTarget/bin/Debug/net10.0/DesafioTarget.dll
+/home/pedro/Documents/GitHub/desafio-vendas-target-system/DesafioTarget/bin/Debug/net10.0/DesafioTarget.pdb
+/home/pedro/Documents/GitHub/desafio-vendas-target-system/DesafioTarget/obj/Debug/net10.0/DesafioTarget.GeneratedMSBuildEditorConfig.editorconfig
+/home/pedro/Documents/GitHub/desafio-vendas-target-system/DesafioTarget/obj/Debug/net10.0/DesafioTarget.AssemblyInfoInputs.cache
+/home/pedro/Documents/GitHub/desafio-vendas-target-system/DesafioTarget/obj/Debug/net10.0/DesafioTarget.AssemblyInfo.cs
+/home/pedro/Documents/GitHub/desafio-vendas-target-system/DesafioTarget/obj/Debug/net10.0/DesafioTarget.csproj.CoreCompileInputs.cache
+/home/pedro/Documents/GitHub/desafio-vendas-target-system/DesafioTarget/obj/Debug/net10.0/DesafioTarget.sourcelink.json
+/home/pedro/Documents/GitHub/desafio-vendas-target-system/DesafioTarget/obj/Debug/net10.0/DesafioTarget.dll
+/home/pedro/Documents/GitHub/desafio-vendas-target-system/DesafioTarget/obj/Debug/net10.0/refint/DesafioTarget.dll
+/home/pedro/Documents/GitHub/desafio-vendas-target-system/DesafioTarget/obj/Debug/net10.0/DesafioTarget.pdb
+/home/pedro/Documents/GitHub/desafio-vendas-target-system/DesafioTarget/obj/Debug/net10.0/DesafioTarget.genruntimeconfig.cache
+/home/pedro/Documents/GitHub/desafio-vendas-target-system/DesafioTarget/obj/Debug/net10.0/ref/DesafioTarget.dll
