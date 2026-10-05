@@ -1,7 +1,6 @@
 namespace DesafioTarget.Services;
 
-public class ComissaoService
-{
+public class ComissaoService {
     public decimal Calcular(decimal valorVenda)
     {
         if (valorVenda < 100)
